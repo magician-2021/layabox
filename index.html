@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.css">
+
+</head>
+
+<body>
+    <div class="container-fluid warp">
+        <header class="header">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid nav-box">
+                    <!-- 移动端的导航栏 -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- logo -->
+                        <a class="navbar-brand logo wow fadeInLeft" href="#"><img src="images/logo.png" alt=""></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <!-- 导航条 -->
+                        <ul class="nav navbar-nav wow fadeInUp">
+                            <li class="active"><a href="#">首页 <span class="sr-only"></span></a></li>
+                            <li><a href="#layaflash">Laya引擎</a></li>
+                            <li><a href="#advantage">Laya优势</a></li>
+                            <li><a href="#family">Laya家族</a></li>
+                            <li><a href="#player">Laya游戏</a></li>
+                            <li><a href="#friend">合作伙伴</a></li>
+                        </ul>
+                        <!-- 语言切换 -->
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">中文</a></li>
+                                    <li><a href="#">英文</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+        <div class="swiper-container" id="swiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banner.png" class="img-responsive" alt="">
+                    <div class="text carousel-caption">开发大型HTML5游戏就用layabox</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner01.jpg" class="img-responsive" alt="">
+                    <div class="text carousel-caption">开发大型HTML5游戏就用layabox</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner02.jpg" class="img-responsive" alt="">
+                    <div class="text carousel-caption">开发大型HTML5游戏就用layabox</div>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- 如果需要滚动条 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- 轮播图 -->
+        <!-- layaflash -->
+        <div class="layaflash" id="layaflash">
+            <div class="row flash-box">
+                <div class="col-md-6">
+                    <div class="left">
+                        <div class="titli">
+                            <div class="big wow fadeInUp" data-wow-delay="200ms">LayaFlash引擎</div>
+                            <div class="small wow fadeInUp" data-wow-delay="200ms">让Flash技术变成开发HTML5的利器</div>
+                        </div>
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="icon wow fadeInUp" data-wow-delay="200ms">
+                                        <div class="img">
+                                            <img src="images/layaflash-icon01.png" alt="">
+                                        </div>
+                                        <div class="titli">
+                                            <div class="big">快速Flash产品转换</div>
+                                            <div class="small">Flash页游\手游仅需1个人7天即可
+                                                转换为HTML5和APP游戏</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="icon wow fadeInUp" data-wow-delay="200ms">
+                                        <div class="img">
+                                            <img src="images/layaflash-icon02.png" alt="">
+                                        </div>
+                                        <div class="titli">
+                                            <div class="big">LayaFlash IDE</div>
+                                            <div class="small">支持代码编译、调试、压缩与混淆
+                                                加密、资源转换、在线文档等功能</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="icon wow fadeInUp" data-wow-delay="200ms">
+                                        <div class="img">
+                                            <img src="images/layaflash-icon03.png" alt="">
+                                        </div>
+                                        <div class="titli">
+                                            <div class="big">HTML5零学习成本</div>
+                                            <div class="small">AS3开发者可直接使用Flash开源框
+                                                架和工具链进行开发HTML5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="icon wow fadeInUp" data-wow-delay="200ms">
+                                        <div class="img">
+                                            <img src="images/layaflash-icon04.png" alt="">
+                                        </div>
+                                        <div class="titli">
+                                            <div class="big">性能媲美APP</div>
+                                            <div class="small">LayaFlash引擎的重度游戏已运行于
+                                                QQ空间等平台，性能媲美APP</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right wow fadeInUp" data-wow-delay="200ms">
+                        <img src="images/Layaflash.png" class="img-resposive" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advantage" id="advantage">
+            <div class="row advantage-box">
+                <div class="col-md-6">
+                    <div class="left wow fadeInUp" data-wow-delay="200ms">
+                        <img src="images/advantage-img.png" class="img-resposive" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="right">
+                        <div class="titli wow fadeInUp" data-wow-delay="200ms">Layabox 优势</div>
+                        <div class="list">
+                            <div class="item wow fadeInUp" data-wow-delay="200ms">
+                                <div class="img">
+                                    <img src="images/advantage-icon01.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    快速上手，Flash程序员3小时掌握HTML5开发
+                                </div>
+                            </div>
+                            <div class="item wow fadeInUp" data-wow-delay="200ms">
+                                <div class="img">
+                                    <img src="images/advantage-icon02.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    4年优化打磨，LayaPlayer运行器性能媲美APP
+                                </div>
+                            </div>
+                            <div class="item wow fadeInUp" data-wow-delay="200ms">
+                                <div class="img">
+                                    <img src="images/advantage-icon03.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    超5亿的LayaPlayer移动设备安装量帮助CP发行
+                                </div>
+                            </div>
+                            <div class="item wow fadeInUp" data-wow-delay="200ms">
+                                <div class="img">
+                                    <img src="images/advantage-icon04.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    使用LayaFlash开发大型HTML5游戏的企业超100家
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="family" id="family">
+            <div class="family-titli">
+                Layabox产品家族
+            </div>
+            <div class="row family-box">
+                <div class="col-md-6">
+                    <div class="left">
+                        <div class="content">
+                            <div class="left-wt">
+                                <div class="tst wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="img">
+                                        <img src="images/family-icon01.png" alt="">
+                                    </div>
+                                    <div class="titli">
+                                        <div class="big">LayaAir</div>
+                                        <div class="small">核心库仅100K左右的新一代HTML5引擎，支
+                                            持AS3\TS\JS语言开发，支持2D\3D，非运行
+                                            器模式下性能媲美APP。</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-wt">
+                                <div class="tst wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="img">
+                                        <img src="images/family-icon02.png" alt="">
+                                    </div>
+                                    <div class="titli">
+                                        <div class="big">LayaAir</div>
+                                        <div class="small">核心库仅100K左右的新一代HTML5引擎，支
+                                            持AS3\TS\JS语言开发，支持2D\3D，非运行
+                                            器模式下性能媲美APP。</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-wt">
+                                <div class="tst wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="img">
+                                        <img src="images/family-icon03.png" alt="">
+                                    </div>
+                                    <div class="titli">
+                                        <div class="big">LayaAir</div>
+                                        <div class="small">核心库仅100K左右的新一代HTML5引擎，支
+                                            持AS3\TS\JS语言开发，支持2D\3D，非运行
+                                            器模式下性能媲美APP。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right">
+                        <div class="content">
+                            <div class="right-wt">
+                                <div class="tst wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="img">
+                                        <img src="images/family-icon04.png" alt="">
+                                    </div>
+                                    <div class="titli">
+                                        <div class="big">LayaAir</div>
+                                        <div class="small">核心库仅100K左右的新一代HTML5引擎，支
+                                            持AS3\TS\JS语言开发，支持2D\3D，非运行
+                                            器模式下性能媲美APP。</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-wt">
+                                <div class="tst wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="img">
+                                        <img src="images/family-icon05.png" alt="">
+                                    </div>
+                                    <div class="titli">
+                                        <div class="big">LayaAir</div>
+                                        <div class="small">核心库仅100K左右的新一代HTML5引擎，支
+                                            持AS3\TS\JS语言开发，支持2D\3D，非运行
+                                            器模式下性能媲美APP。</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-wt">
+                                <div class="tst wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="img">
+                                        <img src="images/family-icon06.png" alt="">
+                                    </div>
+                                    <div class="titli">
+                                        <div class="big">LayaAir</div>
+                                        <div class="small">核心库仅100K左右的新一代HTML5引擎，支
+                                            持AS3\TS\JS语言开发，支持2D\3D，非运行
+                                            器模式下性能媲美APP。</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="player" id="player">
+
+            <div class="row player-box">
+                <div class="player-titli">
+                    <div class="left">
+                        采用Layabox引擎的精彩游戏
+                    </div>
+                    <div class="right">更多</div>
+                </div>
+                <div class="col-md-3">
+                    <div class="left">
+                        <div class="video">
+                            <video width="400px" height="200px" autoplay="autoplay" controls="controls">
+                                <source src="video/layabox_product.avi"></source>
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="right">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon01.png" alt=""></div>
+                                        <div class="txt">猎刃</div>
+                                    </div>
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon07.png" alt=""></div>
+                                        <div class="txt">轰三国</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon02.png" alt=""></div>
+                                        <div class="txt">上吧主公</div>
+                                    </div>
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon08.png" alt=""></div>
+                                        <div class="txt">迷你猎人</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon03.png" alt=""></div>
+                                        <div class="txt">醉西游</div>
+                                    </div>
+                                    <div class="yx">
+                                        <div class="img"><img src="images/player-icon09.png" alt=""></div>
+                                        <div class="txt">萌挂三国</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon04.png" alt=""></div>
+                                        <div class="txt">魔卡幻想</div>
+                                    </div>
+                                    <div class="yx">
+                                        <div class="img"><img src="images/player-icon10.png" alt=""></div>
+                                        <div class="txt">夺塔三国</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon05.png" alt=""></div>
+                                        <div class="txt">超能战队</div>
+                                    </div>
+                                    <div class="yx">
+                                        <div class="img"><img src="images/player-icon11.png" alt=""></div>
+                                        <div class="txt">英雄争霸</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="yx">
+                                        <div class="img"><img src="images/palyer-icon06.png" alt=""></div>
+                                        <div class="txt">刀塔大菠萝</div>
+                                    </div>
+                                    <div class="yx">
+                                        <div class="img"><img src="images/player-icon12.png" alt=""></div>
+                                        <div class="txt">战争之门</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="friend" id="friend">
+            <div class="row friend-box">
+                <div class="friend-titli">
+                    <div class="left">
+                        合作伙伴
+                    </div>
+                    <div class="right">
+                        (排序不分先后)
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon01.png" alt=""></div>
+                                
+                            </div>
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon07.png" alt=""></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon02.png" alt=""></div>
+                                
+                            </div>
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon08.png" alt=""></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon03.png" alt=""></div>
+                            
+                            </div>
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon09.png " alt=""></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon04.png" alt=""></div>
+                                
+                            </div>
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon10.png" alt=""></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon05.png" alt=""></div>
+                                
+                            </div>
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon11.png" alt=""></div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon06.png" alt=""></div>
+                                
+                            </div>
+                            <div class="yx">
+                                <div class="img"><img src="images/friend-icon12.png" alt=""></div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <div class="txt1">
+                    <div class="text">公司简介</div>
+                    <div class="text">联系方式</div>
+                    <div class="text">人才招聘</div>
+                </div>
+                <div class="txt">All Copyright Reserved by Layabox Inc. 京ICP备15008163号-1 </div>
+            </div>
+            <div class="right">
+                <div class="text"><img src="images/footer-icon01.png" alt=""></div>
+                <div class="text"><img src="images/footer-icon01.png" alt=""></div>
+                <div class="text"><img src="images/footer-icon01.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.repeat.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+    new WOW().init();
+    var mySwiper = new Swiper('#swiper1', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+
+    })
+    $('.header a[href]').click(function () {
+        console.log(this.pathname)
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var $target = $(this.hash);
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+            if ($target.length) {
+                var targetOffset = $target.offset().top;
+                $('html,body').animate({
+                    scrollTop: targetOffset
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+
+</html>

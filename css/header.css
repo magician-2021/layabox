@@ -1,0 +1,40 @@
+.header{
+  background: #222;
+}
+.header .content{
+  width: 85%;
+  margin: 0 auto;
+}
+  
+.header .navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+.header .navbar .navList{
+    text-align: center;
+}
+.header .logo{
+    height: auto;
+    padding: 0px 15px;
+    margin-top: 8px;
+}
+.header .logo img{
+    width:100%;
+}
+
+@media screen and (max-width:1235px) {
+  .header .content{
+    width: 100%;
+  }
+}
+@media screen and (max-width:910px) {
+  .header .content .logo{
+    margin-bottom: .5rem;
+  }
+}
+@media screen and (max-width:785px) {
+  .header .content .head_list li a{
+    padding: 10px 10px;
+  }
+}

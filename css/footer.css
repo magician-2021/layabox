@@ -1,0 +1,128 @@
+.footer{
+    padding: 2rem 0rem;
+    background: #3b3b3b;
+}
+.footer .content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:650px) {
+    .footer .content{
+        display: block;
+        width: 100%;
+    }
+
+}
+.footer .content .title{
+    color: #8c8d94;
+    text-align-last: left;
+}
+.footer .content .title .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.footer .content .title .top div{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:900px) {
+    .footer .content .title .top{
+    width: 80%;
+
+}
+    
+    .footer .content .title .btm{
+        width: 80%;
+    }
+
+}
+.footer .content .title .btm{
+    font-size: 1rem;
+}
+.footer .content .list{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer .content .list .item{
+    position: relative;
+}
+.footer .content .list .item img{
+    cursor: pointer;
+}
+.footer .content .list .img{
+    position: absolute;
+    left: -50px;
+    bottom: 100%;
+    display: none;
+}
+
+
+@media screen and (max-width:1000px) {
+    .footer .content .list{
+        width: 25%;        
+    }
+}
+@media screen and (max-width:650px) {
+    .footer .content .title{
+        /*width: 60%;*/
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        bottom: -50px;
+    }
+    .footer .content .title .top{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: .5rem;
+    }
+
+    .footer .content .list{
+        /*width: 30%;        */
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 65px; 
+
+    }
+    .footer .content .title .btm{
+        font-size: 0.9rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:460px) {
+    .footer .content .title .top {
+       display: felx;
+       flex-wrap: wrap;
+       margin: 0 auto;
+       width: 80%;
+    }
+    .footer .content .title .top div{
+        width: 25%;
+        margin-bottom: .5rem;
+    }
+    .footer .content .title{
+        width: 100%;
+        position:relative;
+        bottom: -50px;
+    }
+    .footer .content .list{
+        width: 70%;
+        position: relative;
+        top: -47px;        
+    }
+    .footer .content .title .btm{
+        font-size: 0.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+}

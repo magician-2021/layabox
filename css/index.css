@@ -1,0 +1,73 @@
+.warp{
+    /* width: 100%; */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-box{
+    width: 85%;
+}
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.logo{
+    /* width: 100%; */
+    padding: 0 .9375rem;
+    margin-top: .5rem;
+    height: auto;
+}
+
+/* 轮播图 */
+#swiper1 .text{
+    font-size: 1.25rem;
+}
+/* layaflash */
+.layaflash{
+    background: #fbfaf7;
+    /* background: aqua; */
+    padding: 8rem 0rem 3rem;
+}
+.flash-box{
+    /* background: red; */
+    width: 85%;
+    margin: 0 auto;
+}
+.flash-box  .left> .title .big{
+    font-size: 2.9rem;
+    color: #0078d7;
+    font-weight: bold;
+}
+.flash-box  .left> .title .small{
+    font-size: 1.75rem;
+    color: #666;
+    margin-top: 1.875rem;
+    margin-bottom: 2rem;
+}
+/* .flash-box .right{
+    margin-left: 1.25rem;
+} */
+.icon{
+    display: flex;
+    margin-bottom: 3.125rem;
+}
+.icon .title .big{
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+.icon .title .small{
+    font-size: .75rem;
+    margin-top: .875rem;
+}
+.icon .img{
+    margin-right: .625rem;
+}
+.advantage{
+    background: #fbfaf7;
+    padding: 8rem 0rem 3rem;
+}
+.advantage-box{
+    width: 85%;
+    margin: 0 auto;
+}

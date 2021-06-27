@@ -1,0 +1,254 @@
+/* .navbar-inverse{
+    background: black;
+} */
+.warp{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-box{
+    width: 85%;
+}
+/* .container-fluid{
+    /* width: 85%; */
+.navber{
+    margin-bottom: 0;
+    border-radius: 0;
+    
+}
+.navbar-inverse{
+    margin-bottom: 0;
+}
+.logo{
+    /* width: 100%; */
+    padding: 0 .9375rem;
+    margin-top: .5rem;
+    height: auto;
+}
+#swiper.text{
+    font-size: 1.25rem;
+}
+.layaflash-box{
+    background: aqua;
+    padding: 8rem 0rem 3rem;
+}
+.flash-box{
+    width: 85%;
+    margin: 0 auto;
+}
+.flash-box .left> .titli .big{
+    font-size: 2.9rem;
+    color: #0078d7;
+    font-weight:bold;
+}
+.flash-box .left> .titli .small{
+    font-size: 1.75rem;
+    color: #666;
+    margin-top: 1.875rem;
+    margin-bottom: 2rem;
+}
+/* .content{
+    margin-top: 5rem;
+    margin-left: .9375rem;
+} */
+.icon{
+    display: flex;
+    margin-bottom: 3.125rem;
+}
+.icon .titli .big{
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+.icon .titli .samll{
+    font-size: .75rem;
+    margin-top: .875rem;
+}
+.icon .img{
+    margin-right: .625rem;
+}
+.advantage{
+    background: #fbfaf7;
+    padding: 8rem 0rem 3rem;
+}
+.advantage-box{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.advantage-box .right .titli{
+    font-size: 2.9rem;
+    color: #8fc31f;
+    font-weight:bold;
+    margin-bottom: 2.5rem;
+}
+.advantage-box .right .list .item{
+    display: flex;
+    margin-bottom: .9375rem;
+}
+.advantage-box .list .item .txt{
+    margin-left: .625rem;
+    margin-top: .875rem;
+}
+.advantage-box .left{
+    margin-top: 5rem;
+}
+.family{
+    background: #0079d7;
+    padding: 8rem 0rem 3rem;
+
+}
+.family-titli{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: white;
+}
+.family-box{
+    width: 70%;
+    margin: 0 auto;
+}
+.family-box .left .tst{
+    display: flex;
+    
+    
+}
+.family-box .left .titli{
+    margin-left: 60px;
+}
+.family-box .right .titli{
+    margin-left: 60px;
+}
+.family-box .left .tst .img{
+    margin-top: .625rem;
+}
+.family-box .right .tst .img{
+    margin-top: .625rem;
+}
+.family-box .left .tst .titli .big{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight:bold;
+    margin-bottom: 1.5625rem;
+}
+.family-box .left .tst .titli .small{
+    font-size: .875rem;
+    color: rgb(255, 255, 255);
+   
+}
+.family-box .right{
+    margin-left: 1.25rem;
+    width: 100%;
+}
+.family-box .left .left-wt{
+    width: 100%;
+    margin-bottom: 6.25rem;
+}
+.family-box .right .right-wt{
+    width: 100%;
+    margin-bottom: 6.25rem;
+}
+.family-box .right .tst{
+    display: flex;
+    
+    
+}
+.family-box .right .tst .titli .big{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight:bold;
+    margin-bottom: 1.5625rem;
+}
+.family-box .right .tst .titli .small{
+    font-size: .875rem;
+    color: rgb(255, 255, 255);
+   
+}
+.player{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: white;
+}
+.player-box{
+    width: 85%;
+    margin: 0 auto;
+}
+.player-box .player-titli .left{
+    color: #2a2a2a;
+    font-size: 2.1875rem;
+    text-align: left;
+}
+
+.player-box .player-titli .right{
+    color: #2a2a2a;
+    font-size: .875rem;
+    text-align: right;
+}
+.player-box .player-titli{
+    margin-top: 5.625rem;
+    margin-bottom: 50px;
+}
+.player-box .right{
+    margin-left: 5.3125rem;
+}
+.player-box .right .yx{
+    text-align: left;
+    margin-bottom: 2.1875rem;
+}
+.player-box .right .yx .txt{
+    color: #000;
+    font-size: .875rem;
+}
+.player-box .right .row{
+    display: flex;
+    margin-left: 3.75rem;
+}
+.friend{
+    background: #e7e6e6;
+    padding: 8rem 0rem 3rem;
+
+}
+.friend-box{
+    width: 70%;
+    margin: 0 auto;
+}
+.friend-box .content .yx{
+    margin-left: .9375rem;
+    margin-bottom: 1.25rem;
+}
+.friend-box .friend-titli{
+    display: flex;
+    margin-bottom: 2.1875rem;
+}
+.friend-box .friend-titli .left{
+    font-size: 1.875rem;
+    text-align: left;
+}
+.friend-box .friend-titli .right{
+    font-size: .6875rem;
+    text-align: left;
+    margin-top: 1.25rem;
+}
+.footer{
+    background: #333;
+    color: #dad4d4;
+    display: flex;
+}
+.footer .text {
+    padding-left: 30px;
+}
+.footer .left {
+    padding-top: 30px;
+}
+.footer .txt{
+    padding-left: 30px;
+}
+.footer .left .txt1 {
+    display: flex;
+    margin-bottom: 10px;
+}
+.footer .right {
+    display: flex;
+    margin-top: 30px;
+}
